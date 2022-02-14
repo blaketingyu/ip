@@ -47,6 +47,7 @@ public class DialogBox extends HBox {
         }
 
         dialog.setText(text);
+        //Wrap text when scrollPane needs to scroll.
         setMinHeight(Region.USE_PREF_SIZE);
         displayPicture.setImage(img);
     }
